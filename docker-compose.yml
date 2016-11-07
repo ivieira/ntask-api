@@ -1,5 +1,6 @@
 ntask-api:
   build: .
+  command: 'npm start'
   environment:
     NODE_ENV: development
   ports:
