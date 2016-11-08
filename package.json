@@ -4,7 +4,8 @@
   "description": "Task list API",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js",
+    "start": "npm run clusters",
+    "clusters": "babel-node clusters.js",
     "test": "NODE_ENV=test mocha test/**/*.js"
   },
   "author": "Igor Cardoso Vieira",
